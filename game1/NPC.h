@@ -3,6 +3,7 @@
 
 class NPC {
 protected:
+    std::string className{"Персонаж"};
     std::string name{"npc"};
     unsigned int damage{2};
     unsigned int health{10};
