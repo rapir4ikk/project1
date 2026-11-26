@@ -26,7 +26,7 @@ FetchContent_Declare(imgui-sfml
 FetchContent_MakeAvailable(imgui-sfml)
 
 add_executable(project1
- main.cpp NPC.cpp characterfactory.cpp evil.cpp
+ Source.cpp NPC.cpp characterfactory.cpp evil.cpp
  paladin.cpp player.cpp warrior.cpp wizard.cpp
 )
 target_compile_features(project1 PRIVATE cxx_std_17)
